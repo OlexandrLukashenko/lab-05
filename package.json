@@ -1,0 +1,9 @@
+{
+  "name": "fpv-drone-arena-lab-05",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authoritative multiplayer simulation with prediction, interpolation and binary protocol",
+  "type": "commonjs",
+  "scripts": { "start": "node server/index.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}

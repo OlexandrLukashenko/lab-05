@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FPV Drone Arena — Lab 5</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><header><h1>FPV Drone Arena</h1><span>Лабораторна робота №5 · server-authoritative</span></header>
+<div class="toolbar"><label><input id="jsonMode" type="checkbox"> JSON protocol (comparison)</label><span id="status">Connecting…</span></div>
+<canvas id="game" width="1200" height="700"></canvas>
+<section class="stats"><div>RTT <b id="rtt">—</b></div><div>Snapshot age <b id="age">—</b></div><div>Bytes/s <b id="bps">0</b></div><div>Input queue <b id="queue">0</b></div><div>Correction <b id="correction">0</b></div></section>
+<p class="help">W / ↑ — газ · A/D / ←/→ — поворот · Space — постріл. Відкрий сторінку у двох вікнах, щоб перевірити multiplayer.</p>
+<section class="chat"><div id="messages"></div><form id="chatForm"><input id="chatText" maxlength="240" placeholder="Повідомлення в чат…"><button>Надіслати</button></form></section></main>
+<script src="/shared/sim.js"></script><script src="/shared/protocol.js"></script><script src="/game.js"></script></body></html>
